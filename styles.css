@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+}
+
+
+.container {
+    display: inline-flex;
+    flex: 1 1 300px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    margin: 11px;
+}
+
+.container {
+    background-color: lightseagreen;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    border-radius: 5px;
+}
+.container li {
+    list-style-type: none;
+}
+.container a {
+    display: inline-block;
+    padding: 25px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+.container a:hover {
+    background-color: black;
+}
+
+
+
+img {
+    border: 0;
+}
+.imagery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4px;
+}
+.item {
+    margin: 10px;
+    border-radius: 12px; /*myLab*/
+}
+
+
+#mainTitle {
+    text-align: center;
+    color: blue;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    margin: 11px;
+}
+
+
+
+/*#copyright {
+    text-align: center;
+}
+#sobre {
+
+}
+#contacto {
+
+}*/
