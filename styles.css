@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: stretch;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 .container li {
     list-style-type: none;
@@ -43,6 +43,7 @@ body {
 
 img {
     border: 0;
+    width:90vw;
 }
 .imagery {
     display: flex;
