@@ -5,7 +5,6 @@
 }
 body {
   text-align: center;
-
   font-family: Arial, Helvetica, sans-serif;
 }
 header {
@@ -14,7 +13,7 @@ header {
 header div#website-title {
   color: yellow;
   font-size: 1.5rem;
-  padding: 0.3rem;
+  padding: 0.8rem;
   height: auto;
 }
 main {
@@ -22,6 +21,7 @@ main {
   padding: 30px 25px;
   text-align: left;
   min-height: 90vh;
+  color: white;
 }
 main section#introduction-text {
   color: white;
