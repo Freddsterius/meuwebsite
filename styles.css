@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  color: white;
   text-align: center;
-  background-color: rgb(0, 0, 0);
+
   font-family: Arial, Helvetica, sans-serif;
 }
 header {
@@ -19,6 +18,7 @@ header div#website-title {
   height: auto;
 }
 main {
+  background-color: rgb(0, 0, 0);
   padding: 30px 25px;
   text-align: left;
   min-height: 80vh;
