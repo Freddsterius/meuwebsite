@@ -16,8 +16,16 @@ header div#website-title {
   padding: 0.8rem;
   height: auto;
 }
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav menu {
+  list-style-type: none;
+}
+
 main {
-  background-color: purple;
+  background-color: rgb(24, 26, 21);
   padding: 30px 25px;
   text-align: left;
   min-height: 90vh;
@@ -39,4 +47,5 @@ footer {
 footer div p {
   font-size: 0.9rem;
   padding: 0.2rem;
+  color: white;
 }
