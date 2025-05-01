@@ -19,11 +19,18 @@ header div#website-title {
 nav {
   display: flex;
   justify-content: center;
+  background-color: rgb(24, 26, 21);
 }
 nav menu {
+  display: flex;
   list-style-type: none;
 }
-
+nav menu li {
+  margin: 10px;
+}
+nav menu li a {
+  color:red;
+}
 main {
   background-color: rgb(24, 26, 21);
   padding: 30px 25px;
