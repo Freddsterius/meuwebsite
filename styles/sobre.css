@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+#sobre-title { 
+  color:white;
+}
+nav menu {
+  list-style-type: none;
+  display: flex;
+}
