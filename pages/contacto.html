@@ -9,35 +9,128 @@
 
     <title>MeuWebsite</title>
     <link href="../styles/contacto.css" rel="stylesheet" />
+    <link href="../styles/index.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <div>
-        <img src="../assets/logo.jpg" alt="website logo" />
+      <div class="logo">
+        <a href="../index.html"><h1>Raimundo</h1></a>
       </div>
-      <div id="website-title">
-        <h1>Hello, World🌍!</h1>
-      </div>
+
+      <nav>
+        <ul class="navbar">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <menu>
-        <li><a href="../index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="#">Contacto</a></li>
-      </menu>
-    </nav>
 
     <main>
-      <h1 id="page-name">Contacto</h1>
-      <h3>Número de telefone: +258 80 0000 000</h3>
-      <h3>Email: exemplo@com</h3>
-      <h3>Facebook: exemplo_fb</h3>
-      <h3>Instagram: exemplo_ig</h3>
-      <h3>LinkedIn: exemplo_li</h3>
-      <h3>Github: exemplo_gh</h3>
+      <fieldset>
+        <legend>
+          <h1 class="page-name">Contacto</h1>
+        </legend>
+
+        <div class="contact-container">
+          <div class="contact-type">
+            <div class="contact-type-picture-container">
+              <img
+                class="contact-type-picture"
+                src="../assets/garden.jpg"
+                alt="um telefone"
+              />
+            </div>
+            <div class="contact-type-info">
+              <p class="contact-type-name">Número de telefone:</p>
+              <p class="contact-type-name-value">+258 80 0000 000</p>
+            </div>
+          </div>
+
+          <div class="contact-type">
+            <div class="contact-type-picture-container">
+              <img
+                class="contact-type-picture"
+                src="../assets/pexels-francesco-ungaro-409127.jpg"
+                alt="um telefone"
+              />
+            </div>
+            <div class="contact-type-info">
+              <p class="contact-type-name">Email:</p>
+              <p class="contact-type-name-value">exemplo@com</p>
+            </div>
+          </div>
+
+          <div class="contact-type">
+            <div class="contact-type-picture-container">
+              <img
+                class="contact-type-picture"
+                src="../assets/pexels-public-domain-pictures-68147.jpg"
+                alt="um telefone"
+              />
+            </div>
+            <div class="contact-type-info">
+              <p class="contact-type-name">Facebook:</p>
+              <p class="contact-type-name-value">exemplo_fb</p>
+            </div>
+          </div>
+
+          <div class="contact-type">
+            <div class="contact-type-picture-container">
+              <img
+                class="contact-type-picture"
+                src="../assets/sunflowers.jpg"
+                alt="um telefone"
+              />
+            </div>
+            <div class="contact-type-info">
+              <p class="contact-type-name">Instagram:</p>
+              <p class="contact-type-name-value">exemplo_ig</p>
+            </div>
+          </div>
+
+          <div class="contact-type">
+            <div class="contact-type-picture-container">
+              <img
+                class="contact-type-picture"
+                src="../assets/wooden-table-and-blur-of-beauty-sunset-sky-and-mountains_.jpg"
+                alt="um telefone"
+              />
+            </div>
+            <div class="contact-type-info">
+              <p class="contact-type-name">LinkedIn:</p>
+              <p class="contact-type-name-value">exemplo_li</p>
+            </div>
+          </div>
+
+          <div class="contact-type">
+            <div class="contact-type-picture-container">
+              <img
+                class="contact-type-picture"
+                src="../assets/wall-with-picture-moon-clouds.jpg"
+                alt="um telefone"
+              />
+            </div>
+            <div class="contact-type-info">
+              <p class="contact-type-name">Github:</p>
+              <p class="contact-type-name-value">exemplo_gh</p>
+            </div>
+          </div>
+        </div>
+      </fieldset>
     </main>
 
     <footer>
+      <div>
+        <nav>
+          <ul class="footer-navbar">
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+          </ul>
+        </nav>
+      </div>
+
       <div>
         <p>
           &copy; 2024 - 2025. <br />

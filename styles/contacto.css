@@ -1,41 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-header {
-  background-color: grey;
-}
-header div img {
-  width: 50%;
-  height: 10vh;
-  margin-top: 10px;
-}
-header div#website-title {
-  color: yellow;
-  font-size: 1.5rem;
-  padding: 0.8rem;
-  height: auto;
-}
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(24, 26, 21);
-}
-nav menu {
-  display: flex;
-  list-style-type: none;
-}
-nav menu li {
-  margin: 10px;
-}
-nav menu li a {
-  color: red;
-}
 main {
   background-color: rgb(24, 26, 21);
   padding: 30px 25px;
@@ -43,11 +5,51 @@ main {
   min-height: 90vh;
   color: white;
 }
-main #page-name {
-  color: rgb(0, 255, 42);
-  font-size: 4rem;
-  text-align: center;
-  text-decoration: underline 2px solid silver;
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px 10px;
+  gap: 10px 5px;
+}
+.contact-type {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.contact-type-picture-container {
+  max-width: 180px;
+  @media (min-width: 800px) {
+    max-width: 300px;
+  }
+}
+.contact-type-picture {
+  display: block; /* to avoid the empty space under images */
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.contact-type-info {
+  background-color: rgb(138, 132, 132);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.contact-type-name {
+  padding: 5px 10px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 1rem;
+}
+.contact-type-name-value {
+  padding: 5px 10px;
+  text-align: left;
+  color: rgb(30, 255, 0);
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 footer {
