@@ -3,7 +3,7 @@ main {
   padding: 30px 25px;
   text-align: left;
   min-height: 90vh;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .contact-container {
@@ -40,7 +40,7 @@ main {
 .contact-type-name {
   padding: 5px 10px;
   text-align: left;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-weight: 700;
   font-size: 1rem;
 }
@@ -60,5 +60,5 @@ footer {
 footer div p {
   font-size: 0.9rem;
   padding: 0.2rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
