@@ -16,12 +16,13 @@ body {
 .header {
   display: flex; /* Place logo and nav side by side */
   justify-content: space-between; /* Space between logo and nav */
+  gap: 10px;
   align-items: center; /* Vertically center items */
   padding: 1rem 2rem; /* Add spacing inside header */
   background-color: #ffffff; /* Dark background */
 
   position: fixed;
-  height: 90px;
+  height: auto;
   width: 100%;
   top: 0;
   left: 0;
@@ -49,7 +50,8 @@ body {
 .navbar ul {
   list-style: none; /* Remove bullet points */
   display: flex; /* Display items in a row */
-  gap: 1.5rem; /* Space between nav links */
+  flex-wrap: wrap;
+  gap: 0.5rem; /* Space between nav links */
 }
 
 /* Style each nav link */
@@ -129,7 +131,7 @@ main {
   padding: 30px 25px;
   text-align: left;
   min-height: 90vh;
-  padding-top: 110px;
+  padding-top: 220px;
 }
 main .page-name {
   color: ;
